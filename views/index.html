@@ -1,6 +1,20 @@
+<style>
+    body {
+        background-image: url("views/media/endless-constellation.png");
+        background-size: auto; /* Reset background size to auto */
+        background-repeat: repeat; /* Set background to repeat */
+        background-attachment: fixed;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
 <body>
     <button onclick="window.location.reload()">Run Program</button>
     <div id="terminal"></div>
+    
 
     <script>
         var term = new Terminal({
